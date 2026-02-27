@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada com Operadores de Atribuição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Gerador de tabuadas(1 ao 10)</h2>
+    <div class="bloco">
+    <button onclick="gerarTabuada()">Gerar Tabuada</button>
+    
+    <div id="resultado">
+  
+    </div>
+    
+    <script>
+        function gerarTabuada() {
+
+           let painel = document.getElementById("resultado");
+            
+           let conteudoFinal = "";
+           
+        for (let t = 1 ; t <= 10; t++) { 
+
+            conteudoFinal += "<div class='tabuada-bloco'><h3>Tabuada do " + t + "</h3>";
+
+          for (let i = 1; i <= 10; i++) {
+            resultado = t;
+
+            resultado *= i;
+
+            conteudoFinal += t + " x " + i + " = " + resultado + "<br>";  
+        }
+
+           conteudoFinal += "</div>";
+        } 
+
+        painel.innerHTML = conteudoFinal;       
+    }
+    </script>
+</div>
+</body>
+</html>

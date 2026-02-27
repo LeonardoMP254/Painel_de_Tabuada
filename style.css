@@ -1,0 +1,38 @@
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        background-image: url(https://img.freepik.com/fotos-premium/light-teal-deer-abstract-curved-paper-design-de-fundo-de-papel-curvo_851755-270910.jpg?semt=ais_user_personalization&w=740&q=80);
+        }
+
+.tabuada-bloco { 
+    display: inline-block; 
+    margin: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    vertical-align: top; }
+
+
+button{
+    border: 2px solid #128a52ce;
+    background-color: rgb(18, 45, 95);
+    color: rgb(0, 255, 17);
+    }
+
+
+    h2, p{
+        color: rgb(0, 255, 17);
+    }
+    .bloco{
+        border: 5px solid #128a52ce;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 55px;
+        border-radius: 20px;
+        background-color: #18c474;
+    }
+
+
+    
