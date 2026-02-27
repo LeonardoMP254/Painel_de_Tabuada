@@ -113,7 +113,10 @@ O layout foi projetado para ser simples e educacional:
 ## 👨‍💻 Autor
 
 Projeto desenvolvido como atividade educacional para praticar lógica de programação, estruturas de repetição e manipulação do DOM com JavaScript.
-Aluno: Leonardo A. Leão Sala: 2-IEDS Tecnologia da Informação
+
+``
+Aluno: Leonardo A. Leão /  Sala: 2IE-DS
+``
 
 ---
 
